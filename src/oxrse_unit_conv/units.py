@@ -30,3 +30,6 @@ lb = pound
 # mole
 
 # candela
+
+# gallon
+gallon = Unit(name='gallon', abbr='gal', si=m3, to_si_fun=lambda n: n*0.00378541)
