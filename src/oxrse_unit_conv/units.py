@@ -34,3 +34,7 @@ lb = pound
 # stones
 stones = Unit(name='stones', abbr='st', si=kilogram, to_si_fun=lambda n: n*6.35)
 st = stones
+
+# gallon
+gallon = Unit(name='gallon', abbr='gal', si=m3, to_si_fun=lambda n: n*0.00378541)
+
